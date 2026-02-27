@@ -20,7 +20,7 @@ main {
   background-color: hsl(0, 100%, 74%);
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: space-evenly; */
   position: relative;
 }
 
@@ -35,10 +35,11 @@ main {
 .main-left-box {
   width: 50%;
   height: 100%;
-  padding-left: 7%;
+  padding-left: 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: white;
 }
 
 .main-left-box-heading > h1 {
@@ -53,7 +54,94 @@ main {
 }
 
 .main-right-box {
-  background-color: blue;
+  /* background-color: blue; */
   width: 50%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.free-banner {
+  z-index: 1;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  margin-right: 10%;
+  box-shadow: 0 10px 0px 1px #ef7576;
+  height: 3rem;
+  width: 30rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.free-banner-text-bold {
+  font-weight: bold;
+}
+
+.form-container {
+  /* border: 2px solid whitesmoke; */
+  background-color: white;
+  z-index: 1;
+  margin-right: 10%;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.form-group {
+  /* border: 2px solid black; */
+  height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-group > p {
+  text-align: right;
+  font-size: 0.7rem;
+  font-style: italic;
+  /* margin-bottom: 1rem; */
+}
+
+.form-group > .agreement {
+  font-size: 0.6rem;
+  text-align: center;
+  font-style: normal;
+  color: hsl(249, 10%, 26%);
+}
+
+.terms-and-services {
+  font-size: 0.6rem;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+#firstName, #lastName, #email, #password {
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 100%;
+  height: 2.4rem;
+  padding: 1rem;
+  background-image: url(/assets/icon-error.png);
+  background-repeat: no-repeat;
+  background-position-x: 23rem;
+  background-position-y: 0.4rem;
+  background-size: 1.5rem;
+}
+
+.claim-button {
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+  color: white;
+  margin-bottom: 0.5rem;
 }
