@@ -144,7 +144,7 @@ main {
 
 .error {
   border: 2px solid red;
-  background-image: url(assets/icon-error.png);
+  background-image: url(../assets/icon-error.png);
   background-repeat: no-repeat;
   background-position-x: 23rem;
   background-position-y: 0.4rem;
