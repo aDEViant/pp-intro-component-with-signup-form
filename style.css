@@ -82,7 +82,6 @@ main {
 }
 
 .form-container {
-  /* border: 2px solid whitesmoke; */
   background-color: white;
   z-index: 1;
   margin-right: 10%;
@@ -93,7 +92,6 @@ main {
 }
 
 .form-group {
-  /* border: 2px solid black; */
   height: 3.5rem;
   margin-bottom: 2rem;
 }
@@ -102,7 +100,6 @@ main {
   text-align: right;
   font-size: 0.7rem;
   font-style: italic;
-  /* margin-bottom: 1rem; */
 }
 
 .form-group > .agreement {
@@ -113,14 +110,16 @@ main {
 }
 
 .terms-and-services {
+  color: red;
   font-size: 0.6rem;
   text-align: center;
-  /* color: red; */
   font-weight: bold;
 }
 
-#firstName, #lastName, #email, #password {
-  /* border: 2px solid red; */
+#firstName,
+#lastName,
+#email,
+#password {
   border-radius: 5px;
   width: 100%;
   height: 2.4rem;
@@ -139,7 +138,11 @@ main {
   margin-bottom: 0.5rem;
 }
 
-.error{
+.claim-button:hover{
+  cursor: pointer;
+}
+
+.error {
   border: 2px solid red;
   background-image: url(/assets/icon-error.png);
   background-repeat: no-repeat;
